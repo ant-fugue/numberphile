@@ -1,0 +1,38 @@
+{
+  "name": "Numberphile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "tsc --w",
+    "test": "jest",
+    "lint:eslint": "eslint --ext .ts src",
+    "lint:prettier": "prettier --check .",
+    "fix:prettier": "prettier -w .",
+    "fix:eslint": "npm run lint:eslint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchingforapuppy/Numberphile.git"
+  },
+  "keywords": [],
+  "author": "Shohei Matsuda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/searchingforapuppy/Numberphile/issues"
+  },
+  "homepage": "https://github.com/searchingforapuppy/Numberphile#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^15.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.2.4"
+  }
+}
